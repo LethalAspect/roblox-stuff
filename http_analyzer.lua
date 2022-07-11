@@ -21,7 +21,8 @@ _____) | (___| |   | | |_| || |_   | |   | | | | / ___ | | |_| |___ | ____| |
                     |_|                              (____/                  
                         
                     
-Made by CDXX/CEO of Africa#0591 (Edited By LethalAspect)
+Made by CDXX/CEO of Africa#0591
+Edited By LethalAspect
 
 
 ]])

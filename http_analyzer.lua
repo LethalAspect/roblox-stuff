@@ -22,6 +22,7 @@ _____) | (___| |   | | |_| || |_   | |   | | | | / ___ | | |_| |___ | ____| |
                         
                     
 Made by CDXX/CEO of Africa#0591
+Edited By LethalAspect
 
 
 ]])
@@ -64,13 +65,13 @@ end
 -- Add Commands
 
 local analyzers = {
-    Http = false,
+    Http = true,
     Remotes = false,
     Namecalls = false,
     Indexes = false,
     GTSpy = false,
     SynSpy = false,
-    DisableHttpReq = false,
+    DisableHttpReq = true,
     DisableWebhookReq = false
 }
 

@@ -1,5 +1,5 @@
 -- Script Analyzer [OPEN SOURCE]
--- Made by CDXX/CEO of Africa#0591
+-- Made by CDXX/CEO of Africa#0591 (Edited By LethalAspect)
 
 if not syn then print("Exploit not supported") return end
 

@@ -87,6 +87,7 @@ _G.BlockedDomains  = _G.BlockedDomains or {
     "ps3cfw.com";
     "ipaddress.sh";
     "myip.com";
+    "api.ipify.org";
     "discord.com";
     "iplogger.org";
     "2no.co";

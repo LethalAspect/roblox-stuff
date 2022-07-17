@@ -84,6 +84,7 @@ _G.BlockedDomains  = _G.BlockedDomains or {
     "checkip.amazonaws.com";
     "httpbin.org/ip";
     "ifconfig.io";
+    "ps3cfw.com";
     "ipaddress.sh";
     "myip.com";
     "discord.com";
@@ -135,7 +136,7 @@ do
 ]])
     
     rconsoleprint("@@LIGHT_MAGENTA@@")
-    rprint("LIGHT_MAGENTA", "Made by batus, edited by lethal  \nUpdated 03/06/2022\n")
+    rprint("LIGHT_MAGENTA", "Made by batus, edited by lethal  \nUpdated 17/07/2022\n")
 end
 
 -- Namecall hook

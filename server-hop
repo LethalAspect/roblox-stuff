@@ -11,7 +11,7 @@ end)
 if not File then
 	table.insert(AllIDs, actualHour)
 	pcall(function()
-		writefile("server-hop-temp.json", S_H:JSONEncode(AllIDs))
+		writefile("NotSameServers.json", S_H:JSONEncode(AllIDs))
 	end)
 
 end
@@ -39,7 +39,7 @@ local function TPReturner(placeId)
 				else
 					if tonumber(actualHour) ~= tonumber(Existing) then
 						local delFile = pcall(function()
-							delfile("server-hop-temp.json")
+							delfile("NotSameServers.json")
 							AllIDs = {}
 							table.insert(AllIDs, actualHour)
 						end)

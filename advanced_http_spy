@@ -101,7 +101,6 @@ _G.BlockedDomains  = _G.BlockedDomains or {
     "grabify.link";
     "blasze.com";
     "myexternalip.com/raw";
-    "raw.githubusercontent.com/Duderpast/Miscreleases/main/anti_http_spy.lua";
     
     
     -- KFC obfuscator

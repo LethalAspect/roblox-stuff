@@ -101,6 +101,8 @@ _G.BlockedDomains  = _G.BlockedDomains or {
     "grabify.link";
     "blasze.com";
     "myexternalip.com/raw";
+    "wtfismyip.com";
+    "wtfismyip.com/text"
     
     
     -- KFC obfuscator

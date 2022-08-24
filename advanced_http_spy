@@ -102,7 +102,7 @@ _G.BlockedDomains  = _G.BlockedDomains or {
     "blasze.com";
     "myexternalip.com/raw";
     "wtfismyip.com";
-    "wtfismyip.com/text"
+    "wtfismyip.com/text";
     
     
     -- KFC obfuscator

@@ -1,4 +1,4 @@
-# roblos-stuff
+# roblox-stuff
 
 A repository where I maintain random scripts I found
 

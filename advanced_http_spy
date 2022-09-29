@@ -48,25 +48,29 @@ local rem = table.remove
 
 -- Set up blacklisted stuff
 _G.BlockedDomains  = _G.BlockedDomains or {
-    -- Webhooks
+    -- Discord
     
+    "discord.com";
+    "discord.com/"
     "discord.com/api/webhooks/";
-    "webhook";
     "https://websec.services";
-    "websec.services";
-    "websec.services/ws/send/";   --webhook secure system so block it.
-    "websec.services/ws/send";
-    "websec.services/ws";
     "schervi.wtf";  -- exposed scammer website ( psx )
-    "schervi.wtf/Pogchamp.lua";
     "schervi.wtf/";
     "schervi.wtf/Pogchamp";
-    "discord";
-    "roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username="; --roblox avatar link
-    "roblox.com/Thumbs/Avatar";
-    "roblox.com/users/";
-    "roblox.com/users";
+    "schervi.wtf/Pogchamp.lua";
+    "webhook";
+    "websec.services";
+    "websec.services/ws";
+    "websec.services/ws/send";
+    "websec.services/ws/send/";   --webhook secure system so block it.
+    
+    
+    -- Roblox
     "roblox.com";
+    "roblox.com/Thumbs/Avatar";
+    "roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username="; --roblox avatar link
+    "roblox.com/users";
+    "roblox.com/users/";
  
     
     
@@ -76,34 +80,51 @@ _G.BlockedDomains  = _G.BlockedDomains or {
     "freehosting";
     "repl";
     
-    -- Identifier websites
+    -- Ip Loggers
     
-    "ident.me";
-    "ipify.org";
-    "dyndns.org";
-    "checkip.amazonaws.com";
-    "httpbin.org/ip";
-    "ifconfig.io";
-    "ps3cfw.com";
-    "ipaddress.sh";
-    "myip.com";
-    "api.ipify.org";
-    "discord.com";
-    "iplogger.org";
+    "02ip.ru";
     "2no.co";
-    "yip.su";
-    "iplis.ru";
-    "catsnthing.com";
-    "opentracker.net";
-    "iplocation";
-    "ip-tracker.org";
-    "grabify.link/";
-    "grabify.link";
+    "api.ipify.org";
     "blasze.com";
+    "blasze.tk";
+    "bvog.com";
+    "catsnthing.com";
+    "catsnthings.com";
+    "catsnthings.fun";
+    "checkip.amazonaws.com";
+    "curiouscat.club"
+    "dyndns.org";
+    "ezstat.ru";
+    "freebooter.pro";
+    "freegiftcards.co";
+    "grabify.link";
+    "grabify.link/";
+    "hondachat.com";
+    "httpbin.org/ip";
+    "ident.me";
+    "ifconfig.io";
+    "ip-tracker.org";
+    "ipaddress.sh";
+    "ipgrab.org";
+    "ipify.org";
+    "iplis.ru";
+    "iplo.ru";
+    "iplocation";
+    "iplogger.com";
+    "iplogger.org";
+    "iplogger.ru";
+    "joinmy.site";
     "myexternalip.com/raw";
+    "myip.com";
+    "opentracker.net";
+    "pronosparadise.com";
+    "ps3cfw.com";
     "wtfismyip.com";
     "wtfismyip.com/text";
-    "api.luauth.xyz/ip";
+    "yip.su";
+    "youramonkey.com";
+
+    
     
     -- KFC obfuscator
     

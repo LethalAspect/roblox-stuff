@@ -54,10 +54,6 @@ _G.BlockedDomains  = _G.BlockedDomains or {
     "discord.com/"
     "discord.com/api/webhooks/";
     "https://websec.services";
-    "schervi.wtf";  -- exposed scammer website ( psx )
-    "schervi.wtf/";
-    "schervi.wtf/Pogchamp";
-    "schervi.wtf/Pogchamp.lua";
     "webhook";
     "websec.services";
     "websec.services/ws";
@@ -71,8 +67,6 @@ _G.BlockedDomains  = _G.BlockedDomains or {
     "roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username="; --roblox avatar link
     "roblox.com/users";
     "roblox.com/users/";
- 
-    
     
     -- Server hosters
     
@@ -130,6 +124,13 @@ _G.BlockedDomains  = _G.BlockedDomains or {
     
     "ligma.wtf";
     "library.veryverybored";
+    
+    -- Miscellaneous
+    "schervi.wtf";  -- exposed scammer website ( psx )
+    "schervi.wtf/";
+    "schervi.wtf/Pogchamp";
+    "schervi.wtf/Pogchamp.lua";
+    
 }
 _G.BlockedContent = _G.BlockedContent or {
     plr.Name;

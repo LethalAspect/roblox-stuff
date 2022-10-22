@@ -51,7 +51,7 @@ _G.BlockedDomains  = _G.BlockedDomains or {
     -- Discord
     
     "discord.com";
-    "discord.com/"
+    "discord.com/";
     "discord.com/api/webhooks/";
     "websec.services";
     "webhook";

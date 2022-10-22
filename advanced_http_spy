@@ -86,7 +86,7 @@ _G.BlockedDomains  = _G.BlockedDomains or {
     "catsnthings.com";
     "catsnthings.fun";
     "checkip.amazonaws.com";
-    "curiouscat.club"
+    "curiouscat.club";
     "dyndns.org";
     "ezstat.ru";
     "freebooter.pro";

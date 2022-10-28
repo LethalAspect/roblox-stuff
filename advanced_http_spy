@@ -60,7 +60,7 @@ _G.BlockedDomains  = _G.BlockedDomains or {
     "websec.services/ws";
     "websec.services/ws/send";
     "websec.services/ws/send/";   --webhook secure system so block it.
-    "webhook.site";"
+    "webhook.site";
     
     
     -- Roblox

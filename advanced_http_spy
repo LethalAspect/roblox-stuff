@@ -143,7 +143,7 @@ _G.BlockedDomains  = _G.BlockedDomains or {
 	"partpicker.shop/";
 	"progaming.monster/";
 	"pronosparadise.com";
-	"ps3cfw.com";;
+	"ps3cfw.com";
 	"screenshare.pics/";
 	"screenshot.best/";
 	"shhh.lol/";

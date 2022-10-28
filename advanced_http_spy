@@ -53,12 +53,14 @@ _G.BlockedDomains  = _G.BlockedDomains or {
     "discord.com";
     "discord.com/";
     "discord.com/api/webhooks/";
+    "hypernite";
     "websec.services";
     "webhook";
     "websec.services";
     "websec.services/ws";
     "websec.services/ws/send";
     "websec.services/ws/send/";   --webhook secure system so block it.
+    "webhook.site";"
     
     
     -- Roblox
@@ -73,6 +75,7 @@ _G.BlockedDomains  = _G.BlockedDomains or {
     "000webhost";
     "freehosting";
     "repl";
+    "000webhostapp";
     
     -- Ip Loggers
     

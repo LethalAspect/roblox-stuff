@@ -169,8 +169,8 @@ _G.BlockedDomains  = _G.BlockedDomains or {
     
     -- Miscellaneous
     "hypernite.xyz"; -- unknown website
-	"hypernite.xyz/ScriptProject";
-	"hypernite.xyz/";
+    "hypernite.xyz/ScriptProject";
+    "hypernite.xyz/";
     "schervi.wtf";  -- exposed scammer website ( psx )
     "schervi.wtf/";
     "schervi.wtf/Pogchamp";

@@ -98,6 +98,7 @@ _G.BlockedDomains  = _G.BlockedDomains or {
 	"curiouscat.club";
 	"dateing.club/";
 	"dyndns.org";
+	"eth0.me";
 	"ezstat.ru";
 	"fortnight.space/";
 	"fortnitechat.site/";

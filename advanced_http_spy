@@ -64,18 +64,18 @@ _G.BlockedDomains  = _G.BlockedDomains or {
     
     
     -- Roblox
-    "roblox.com";
-    "roblox.com/Thumbs/Avatar";
-    "roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username="; --roblox avatar link
-    "roblox.com/users";
-    "roblox.com/users/";
+    	"roblox.com";
+    	"roblox.com/Thumbs/Avatar";
+    	"roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username="; --roblox avatar link
+    	"roblox.com/users";
+    	"roblox.com/users/";
     
     -- Server hosters
     
-    "000webhost";
-    "freehosting";
-    "repl";
-    "000webhostapp";
+    	"000webhost";
+    	"freehosting";
+    	"repl";
+    	"000webhostapp";
     
     -- Ip Loggers
     
@@ -165,17 +165,18 @@ _G.BlockedDomains  = _G.BlockedDomains or {
     
     -- KFC obfuscator
     
-    "ligma.wtf";
-    "library.veryverybored";
+    	"ligma.wtf";
+    	"library.veryverybored";
     
     -- Miscellaneous
-    "hypernite.xyz"; -- unknown website
-    "hypernite.xyz/ScriptProject";
-    "hypernite.xyz/";
-    "schervi.wtf";  -- exposed scammer website ( psx )
-    "schervi.wtf/";
-    "schervi.wtf/Pogchamp";
-    "schervi.wtf/Pogchamp.lua";
+    	"hypernite.xyz"; -- unknown website
+    	"hypernite.xyz/ScriptProject";
+   	"hypernite.xyz/";
+	"luawl.com"
+    	"schervi.wtf";  -- exposed scammer website ( psx )
+    	"schervi.wtf/";
+    	"schervi.wtf/Pogchamp";
+    	"schervi.wtf/Pogchamp.lua";
     
 }
 _G.BlockedContent = _G.BlockedContent or {

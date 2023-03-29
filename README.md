@@ -2,7 +2,7 @@
 
 A repository where I maintain random scripts I found
 
-***Note: I will not be updating this as much.*** 
+***Note: I will not be updating this as much as I am currently working on my own Pi-Hole filterlist.*** 
 
 ## Authors
 

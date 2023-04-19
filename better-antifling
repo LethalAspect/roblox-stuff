@@ -1,6 +1,22 @@
 -- note: original is from topitbopit
 
--- get function
+-- get services
+
+local runServ = game:GetService('RunService') -- used for some antifling methods 
+local sGuiServ = game:GetService('StarterGui') -- starter gui
+local playerServ = game:GetService('Players') -- players
+local Services = setmetatable({}, {__index = function(Self, Index)
+local NewService = game.GetService(game, Index)
+if NewService then
+Self[Index] = NewService
+end
+return NewService
+end})
+
+-- [ LocalPlayer ] --
+local LocalPlayer = Services.Players.LocalPlayer
+
+-- // Functions \\ --
 local function PlayerAdded(Player)
    local Detected = false
    local Character;
@@ -27,12 +43,6 @@ local function PlayerAdded(Player)
                    })
                end
        
--- get services
-
-local runServ = game:GetService('RunService') -- used for some antifling methods 
-local sGuiServ = game:GetService('StarterGui') -- starter gui
-local playerServ = game:GetService('Players') -- players
-
 -- get client stuff
 local clientPlr = game:GetService('Players').LocalPlayer 
 local clientChar = clientPlr.Character
